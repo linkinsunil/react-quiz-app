@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200;300&display=swap');
+
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 .app {
@@ -7,4 +17,14 @@
   border: 8px solid grey;
   margin: 5px;
   padding: 5px;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: grey;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: black;
 }
